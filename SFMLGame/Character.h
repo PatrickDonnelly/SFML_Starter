@@ -10,5 +10,9 @@ public:
 	void initialize();
 	void update();
 	void draw();
+
+	sf::Texture m_texture;
+	sf::Sprite m_sprite;
+	
 };
 #endif

@@ -2,7 +2,7 @@
 #define NPC_H
 
 #include <iostream>
-#include "Character.h"
+#include <Character.h>
 
 using namespace std;
 
@@ -13,6 +13,6 @@ public:
 	~NPC();
 	void initialize();
 	void update();
-	void draw();
+	void draw(sf::RenderWindow* t_window);
 };
 #endif

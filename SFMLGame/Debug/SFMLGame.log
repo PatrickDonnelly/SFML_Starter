@@ -1,1 +1,7 @@
-﻿  SFMLGame.vcxproj -> C:\Users\Patrick\Desktop\PRACTICAL_02_SFMLGame\Debug\SFMLGame.exe
+﻿  Character.cpp
+  Game.cpp
+  NPC.cpp
+  Player.cpp
+  main.cpp
+  Generating Code...
+  SFMLGame.vcxproj -> C:\Users\Patrick\Desktop\SFML_starter\Debug\SFMLGame.exe

@@ -2,7 +2,7 @@
 #define PLAYER_H
 
 #include <iostream>
-#include "Character.h"
+#include <Character.h>
 
 using namespace std;
 
@@ -13,6 +13,9 @@ public:
 	~Player();
 	void initialize();
 	void update();
-	void draw();
+	void draw(sf::RenderWindow* t_window);
+
+private:
+		float m_speed{ 5 };
 };
 #endif
