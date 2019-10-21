@@ -14,5 +14,6 @@ public:
 	void initialize();
 	void update();
 	void draw(sf::RenderWindow* t_window);
+	void reset();
 };
 #endif

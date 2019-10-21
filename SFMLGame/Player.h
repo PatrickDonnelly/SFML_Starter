@@ -14,6 +14,7 @@ public:
 	void initialize();
 	void update();
 	void draw(sf::RenderWindow* t_window);
+	void reset();
 
 private:
 		float m_speed{ 5 };

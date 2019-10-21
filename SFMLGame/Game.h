@@ -10,6 +10,7 @@ class Game
 		void initialize();
 		void update();
 		void draw();
+		void collision();
 		Player* player;
 		NPC* npc;
 };

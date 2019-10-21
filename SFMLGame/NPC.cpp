@@ -25,3 +25,8 @@ void NPC::draw(sf::RenderWindow* t_window)
 	cout << "NPC drawing" << endl;
 	t_window->draw(m_sprite);
 }
+void NPC::reset()
+{
+	cout << "NPC Position Reset" << endl;
+	m_sprite.setPosition(300, 300);
+}

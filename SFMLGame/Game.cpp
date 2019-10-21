@@ -37,6 +37,8 @@ void Game::update()
 
 		player->update();
 		npc->update();
+		collision();
+		
 	}
 
 }
@@ -49,4 +51,13 @@ void Game::draw()
 	window->display();
 }
 
+void Game::collision()
+{
+	if (player->m_sprite.getGlobalBounds().intersects(npc->m_sprite.getGlobalBounds()))
+	{
+		cout << "NPC - Player Collision" << endl;
+		player->reset();
+		npc->reset();
+	}
+}
 

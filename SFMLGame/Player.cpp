@@ -41,3 +41,8 @@ void Player::draw(sf::RenderWindow* t_window)
 	cout << "Player drawing" << endl;
 	t_window->draw(m_sprite);
 }
+void Player::reset()
+{
+	cout << "Player position reset" << endl;
+	m_sprite.setPosition(20, 20);
+}
